@@ -7,6 +7,8 @@ function Hide(){
 navList.classList.remove("_Menus-show");
 }
 
+
+
 let slideIndex = 0;
 showSlides();
 
