@@ -192,3 +192,10 @@ body {
   padding: 10px;
 }
 
+footerp {
+  font-size: 19px;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+}
