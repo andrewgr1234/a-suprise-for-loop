@@ -85,10 +85,12 @@ body {
   line-height: 60px;
   cursor: pointer;
   padding: 0 10px;
+  margin: 0;
 }
 
 .container .navbar ul li a:hover {
   color: #ffffff;
+  margin: 0;
   background-image: data-src="https://static.wixstatic.com/media/91df06_00c23b85655c4a439cfc48c1cfb97909~mv2.png/v1/crop/x_236,y_96,w_902,h_436/fill/w_200,h_95,al_c,usm_0.66_1.00_0.01,enc_auto/BLUE-Logo%20copy.png";
 }
 
@@ -96,6 +98,7 @@ body {
   display: none;
   text-align: right;
   padding: 10px;
+  margin: 0;
 }
 
 .container .navbar ul .close span {
@@ -104,6 +107,7 @@ body {
   border: 1px solid #cccccc;
   padding: 0 10px;
   cursor: pointer;
+  margin: 0;
 }
 
 .container .navbar .icon-bar {
@@ -161,6 +165,7 @@ body {
     -webkit-transition: left .3s;
     -o-transition: left .3s;
     transition: left .3s;
+    margin: 0;
   }
 
   .container .navbar ul li a {
@@ -169,10 +174,12 @@ body {
     height: auto;
     line-height: normal;
     color: #555555;
+    margin: 0;
   }
 
   .container .navbar ul .close {
     display: block;
+    margin: 0;
   }
 
   .container .navbar .icon-bar {
