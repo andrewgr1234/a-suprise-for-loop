@@ -50,9 +50,9 @@
 
     <form id="signup">
         <label for="uname">Username:</label>
-  <input type="text" id="uname" name="uname">
+  <input type="text" id="uname" name="uname" onkeyup="formChanged()" onchange="formChanged()">
         <label for="password">Last name:</label>
-  <input type="text" id="password" name="password" form="signup">
+  <input type="text" id="password" name="password" form="signup" onkeyup="formChanged()" onchange="formChanged()">
   <br><input type="submit" value="Submit"></br>
 
 
